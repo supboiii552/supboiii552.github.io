@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>supboiii552's GitHub Projects</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for the project links */
+        .project-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        /* Custom gradient background */
+        .gradient-bg {
+            background: linear-gradient(135deg, #1f2937, #0f172a);
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-dark': '#1f2937',
+                        'secondary-dark': '#0f172a',
+                        'accent-blue': '#3b82f6',
+                        'accent-light': '#9ca3af',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="gradient-bg text-gray-100 min-h-screen font-sans">
+
+    <!-- Header & Bio Section -->
+    <header class="py-16 px-4 sm:px-6 lg:px-8 shadow-2xl bg-secondary-dark/50">
+        <div class="max-w-4xl mx-auto text-center">
+            <!-- Profile Image Placeholder -->
+            <div class="w-24 h-24 mx-auto mb-4 bg-gray-600 rounded-full flex items-center justify-center border-4 border-accent-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+            </div>
+
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-2">
+                My Projects
+            </h1>
+            <p class="text-xl text-accent-light">
+                Developer and Forker of HTML/JS Games
+            </p>
+            <p class="mt-4 text-gray-300 max-w-2xl mx-auto">
+                Welcome to my sandbox! I focus on building and forking unblocked games using JavaScript and HTML, making cool stuff accessible. Check out my main projects below.
+            </p>
+        </div>
+    </header>
+
+    <main class="py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+
+            <!-- Projects Section -->
+            <section id="projects" class="mb-16">
+                <h2 class="text-3xl font-bold border-b-2 border-accent-blue pb-2 mb-8 text-white">
+                    Key Projects
+                </h2>
+
+                <div class="grid md:grid-cols-2 gap-6">
+
+                    <!-- Project 1: Sandboxels -->
+                    <a href="https://supboiii552.github.io/sandboxels" target="_blank" class="block project-card bg-primary-dark/80 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-accent-blue">
+                        <h3 class="text-xl font-semibold text-accent-blue mb-2">Sandboxels</h3>
+                        <p class="text-gray-300">
+                            A fun, physics-based sandbox simulator built with JavaScript. Experiment with elements and see what happens! (Made by r74n go check him out hes great)
+                        </p>
+                        <span class="mt-3 inline-block text-sm text-gray-400">supboiii552.github.io/sandboxels</span>
+                    </a>
+
+                    <!-- Project 2: Unblocked Games -->
+                    <a href="https://supboiii552.github.io/unblockedgames" target="_blank" class="block project-card bg-primary-dark/80 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-accent-blue">
+                        <h3 class="text-xl font-semibold text-accent-blue mb-2">Unblocked Games Hub</h3>
+                        <p class="text-gray-300">
+                            A game website with some games, the first one i ever forked and hosted
+                        </p>
+                        <span class="mt-3 inline-block text-sm text-gray-400">supboiii552.github.io/unblockedgames</span>
+                    </a>
+
+                    <!-- Project 3: 66 Project -->
+                    <a href="https://supboiii552.github.io/66" target="_blank" class="block project-card bg-primary-dark/80 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-accent-blue">
+                        <h3 class="text-xl font-semibold text-accent-blue mb-2">Mathgames 66</h3>
+                        <p class="text-gray-300">
+                            Mathgames 66 has quite a few games and several unique ones. Go check it out!
+                        </p>
+                        <span class="mt-3 inline-block text-sm text-gray-400">supboiii552.github.io/66</span>
+                    </a>
+
+                    <!-- Project 4: MonkeyGG -->
+                    <a href="https://supboiii552.github.io/monkeygg" target="_blank" class="block project-card bg-primary-dark/80 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-accent-blue">
+                        <h3 class="text-xl font-semibold text-accent-blue mb-2">MonkeyGG</h3>
+                        <p class="text-gray-300">
+                            MonkeyGG2 is a site with a proxy that is broken at the moment, a lot of games, and asteroid games on it.
+                        </p>
+                        <span class="mt-3 inline-block text-sm text-gray-400">supboiii552.github.io/monkeygg</span>
+                    </a>
+
+                </div>
+            </section>
+
+            <!-- About Me Section -->
+            <section id="about" class="mb-16 p-8 bg-primary-dark rounded-xl shadow-lg border border-gray-700">
+                <h2 class="text-3xl font-bold border-b-2 border-accent-blue pb-2 mb-6 text-white">
+                    About Me
+                </h2>
+                <div class="text-gray-300 space-y-4">
+                    <p>
+                        I'm passionate about web development, especially bringing fun and functional games to the browser. My primary focus is on forking and hosting open-source unblocked games, ensuring they run smoothly and are accessible to everyone.
+                    </p>
+                    <p>
+                        I am a high schooler who has minimal coding experience but is striving to learn more. I have JS and HTML under my belt, although i am a little rusty. I hate blockers and actively try to bypass them, hence why I fork and host unblocked game sites.
+                    </p>
+                    <p>
+                        Feel free to check out the repositories for these projects on my main GitHub page!
+                    </p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-6 px-4 sm:px-6 lg:px-8 bg-secondary-dark/50 text-center border-t border-gray-800">
+        <p class="text-gray-500 text-sm">
+            &copy; 2025 supboiii552. Built with HTML and Tailwind CSS.
+        </p>
+    </footer>
+
+</body>
+</html>
